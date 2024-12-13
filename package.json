@@ -18,7 +18,7 @@
   "bugs": {
     "url": "https://github.com/cobiwave/simplefolio/issues"
   },
-  "homepage": "https://github.com/cobiwave/simplefolio#readme",
+  "homepage": "https://Katorrz.github.io/Portfolio",
   "devDependencies": {
     "@parcel/transformer-sass": "^2.8.2",
     "gh-pages": "^6.2.0",
@@ -32,8 +32,5 @@
     "jquery": "^3.6.3",
     "popper.js": "^1.16.1",
     "vanilla-tilt": "^1.8.0"
-  },
-  {
-    "homepage": "https://Katorrz.github.io/Portfolio"
   }
 }
