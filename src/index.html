@@ -1,29 +1,16 @@
-<!--
-  Hello!
-  -
-  Simplefolio is a clean and responsive portfolio template for Developers!
-  Created by Jacobo Martinez.
-  -
-  Github Repo: https://github.com/cobiwave/simplefolio/
-  Readme: https://github.com/cobiwave/simplefolio/README.md
-  -
-  For business & inquires, contact me -> jacobojavier98@gmail.com
--->
+
 <!DOCTYPE html>
 <html lang="en" class="sr">
   <head>
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <link rel="shortcut icon" type="image/png" href="assets/favicon.png" />
+    <link rel="shortcut icon" type="image/png" href="assets/ico.png" />
 
-    <!-- Todo: put here your site title -->
-    <title>[Your name here] | Developer</title>
-    <!-- Todo: add some coding keywords below - e.g: (javascript, yourusername, etc) -->
-    <meta name="keywords" content="[username], [name], skill" />
-    <!-- Todo: improve your SEO by adding a small description of you -->
-    <meta name="description" content="[Your name here] | Developer" />
+    <!-- Site title -->
+    <title>Brice Morand | Developer</title>
 
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
@@ -34,30 +21,24 @@
       src="https://unpkg.com/scrollreveal@4.0.0/dist/scrollreveal.min.js"
     ></script>
 
-    <!-- Todo: remove the below script once you finish your portfolio -->
-    <script async defer src="https://buttons.github.io/buttons.js"></script>
   </head>
 
-  <!-- Todo: read the following HTML Todos to create your stunning portfolio website -->
   <body>
     <div id="top"></div>
-
-    <!-- **** Hero Section **** -->
     <section id="hero" class="jumbotron">
       <div class="container">
         <h1 class="hero-title load-hidden">
-          Hi, my name is <span class="text-color-main">Your Name</span>
+          Hi, my name is <span class="text-color-main">Brice Morand</span>
           <br />
-          I'm the Unknown Developer.
+          I'm a software developer.
         </h1>
         <p class="hero-cta load-hidden">
           <a rel="noreferrer" class="cta-btn cta-btn--hero" href="#about"
-            >Know more</a
-          >
+            >Get started <i class="fa-solid fa-arrow-down"></i> </a>
         </p>
       </div>
     </section>
-    <!-- /END Hero Section -->
+    <!-- /END Section -->
 
     <!-- **** About Section **** -->
     <section id="about">
@@ -71,7 +52,7 @@
                 class="img-fluid rounded shadow-lg"
                 height="auto"
                 width="300px"
-                src="assets/profile.jpg"
+                src="assets/moi.png"
                 alt="Profile Image"
               />
             </div>
@@ -79,11 +60,11 @@
           <div class="col-md-6 col-sm-12">
             <div class="about-wrapper__info load-hidden">
               <p class="about-wrapper__info-text">
-                This is where you can describe about yourself. The more you
-                describe about yourself, the more chances you have!
+                Hi! My name is Brice Morand, i'm 23 and I am a last year student at a french engineering school in IT major where I learn more about math, science and software development.. I like mixing science and math with programming and l’m always looking for new challenges.
+
               </p>
               <p class="about-wrapper__info-text">
-                Extra Information about you! like hobbies and your goals.
+                During these years, I specialized in cloud computing, where I was able to discover many new technologies and concepts. But I also put my knowledge into practice through various projects and internships, one of which took place in Belgrade and considerably broadened my cultural and technical horizons.
               </p>
               <span class="d-flex mt-3">
                 <a
@@ -100,9 +81,7 @@
         </div>
       </div>
     </section>
-    <!-- /END About Section -->
 
-    <!-- **** Projects Section **** -->
     <section id="projects">
       <div class="container">
         <div class="project-wrapper">
@@ -112,35 +91,53 @@
           <div class="row">
             <div class="col-lg-4 col-sm-12">
               <div class="project-wrapper__text load-hidden">
-                <h3 class="project-wrapper__text-title">Project Title 0</h3>
+                <h3 class="project-wrapper__text-title">MCy-Tech</h3>
                 <div>
                   <p class="mb-4">
-                    Describe the project being very specific, you can use the Twitter standard: no more than 280 characters: 
-                    complement the information: the skills learned or reinforced in its realization and how you faced it, 
-                    prove to be proactive in the search for solutions.
+                    Site d'organisation d'évènements multijoueur Minecraft. 
+                    Il permet, la création et la gestion d'évènements, 
+                    donnant aux joueurs la possibilitée d'y participer
                   </p>
                 </div>
+
+                <a rel="noreferrer"
+                  target="_blank"
+                  class="cta-btn cta-btn--hero"
+                  href="https://fr.wikipedia.org/wiki/Jakarta_EE"
+                  style="
+                   font-size: 16px;
+                   color: var(--light_blue);
+                   text-decoration: none;
+                   opacity: 1;
+                  "
+                >JEE </a>
+
+                <a rel="noreferrer"
+                target="_blank"
+                class="cta-btn cta-btn--hero"
+                href="https://spring.io/projects/spring-boot"
+                style="
+                 font-size: 16px;
+                 color: var(--light_blue);
+                 text-decoration: none;
+                 opacity: 1;
+                "
+              >Spring Boot</a>
+
                 <a
                   rel="noreferrer"
                   target="_blank"
                   class="cta-btn cta-btn--hero"
-                  href="#!"
+                  href="https://github.com/Snowphey/ValoJungleSite"
                 >
-                  See Live
+                  Source code <i class="fa-brands fa-github"></i>
                 </a>
-                <a
-                  rel="noreferrer"
-                  target="_blank"
-                  class="cta-btn text-color-main"
-                  href="#!"
-                >
-                  Source Code
                 </a>
               </div>
             </div>
             <div class="col-lg-8 col-sm-12">
               <div class="project-wrapper__image load-hidden">
-                <a rel="noreferrer" href="#!" target="_blank">
+                <a rel="noreferrer" href="https://github.com/Snowphey/ValoJungleSite" target="_blank">
                   <div
                     data-tilt
                     data-tilt-max="4"
@@ -151,7 +148,7 @@
                     <img
                       alt="Project Image"
                       class="img-fluid"
-                      src="assets/project.jpg"
+                      src="assets/MCYTECH.png"
                     />
                   </div>
                 </a>
@@ -164,35 +161,72 @@
           <div class="row">
             <div class="col-lg-4 col-sm-12">
               <div class="project-wrapper__text load-hidden">
-                <h3 class="project-wrapper__text-title">Project Title 1</h3>
+                <h3 class="project-wrapper__text-title">Blue Géolock</h3>
                 <div>
                   <p class="mb-4">
-                    Demonstrate in this description the skills of a programmer: such as having commitment, 
-                    having perseverance and accepting alternative solutions. Remember that being a portfolio you are not selling the project, 
-                    you are selling yourself, it reflects the resources used: Frameworks, libraries, platforms, etc.
+                    Project to simulate a football match in a simple way.
+                     We use Kafka brokers to generate gps data that we retrieve with a REST API to move players on a field.
                   </p>
                 </div>
+                <a rel="noreferrer"
+                target="_blank"
+                class="cta-btn cta-btn--hero"
+                href="https://kafka.apache.org/"
+                style="
+                 font-size: 16px;
+                 color: var(--light_blue);
+                 text-decoration: none;
+                 opacity: 1;
+                "
+              >Kafka</a>
+              <a rel="noreferrer"
+              target="_blank"
+              class="cta-btn cta-btn--hero"
+              href="https://www.docker.com/"
+              style="
+               font-size: 16px;
+               color: var(--light_blue);
+               text-decoration: none;
+               opacity: 1;
+              "
+            >Docker</a>
+
+            <a rel="noreferrer"
+            target="_blank"
+            class="cta-btn cta-btn--hero"
+            href="https://www.python.org/"
+            style="
+             font-size: 16px;
+             color: var(--light_blue);
+             text-decoration: none;
+             opacity: 1;
+            "
+          >Python</a>
+          <a rel="noreferrer"
+          target="_blank"
+          class="cta-btn cta-btn--hero"
+          href="https://www.redhat.com/fr/topics/api/what-is-a-rest-api"
+          style="
+           font-size: 16px;
+           color: var(--light_blue);
+           text-decoration: none;
+           opacity: 1;
+          "
+        >REST API</a>
+            
                 <a
                   rel="noreferrer"
                   target="_blank"
                   class="cta-btn cta-btn--hero"
-                  href="#!"
+                  href="https://github.com/Snowphey/BlueGeolock"
                 >
-                  See Live
-                </a>
-                <a
-                  rel="noreferrer"
-                  target="_blank"
-                  class="cta-btn text-color-main"
-                  href="#!"
-                >
-                  Source Code
+                Source Code <i class="fa-brands fa-github"></i>
                 </a>
               </div>
             </div>
             <div class="col-lg-8 col-sm-12">
               <div class="project-wrapper__image load-hidden">
-                <a rel="noreferrer" href="#!" target="_blank">
+                <a rel="noreferrer" href="https://github.com/Snowphey/BlueGeolock" target="_blank">
                   <div
                     data-tilt
                     data-tilt-max="4"
@@ -203,7 +237,7 @@
                     <img
                       alt="Project Image"
                       class="img-fluid"
-                      src="assets/project.jpg"
+                      src="assets/blue geolock.png"
                     />
                   </div>
                 </a>
@@ -216,28 +250,46 @@
           <div class="row">
             <div class="col-lg-4 col-sm-12">
               <div class="project-wrapper__text load-hidden">
-                <h3 class="project-wrapper__text-title">Project Title 2</h3>
+                <h3 class="project-wrapper__text-title">Clan finder</h3>
                 <div>
                   <p class="mb-4">
-                    If the project was collaborative, reflect it in this description, that will demonstrate communication and/or leadership skills. 
-                    Additionally, if you made use of the mastery of a second language, it will reflect on you professionalism.
+                    Clan search website based on the Clash of Clans API. 
+                    The project also includes the implementation of application security using the https protocol and the hashing of user passwords. 
                   </p>
                 </div>
+
+                <a rel="noreferrer"
+                target="_blank"
+                class="cta-btn cta-btn--hero"
+                href="https://www.typescriptlang.org/"
+                style="
+                 font-size: 16px;
+                 color: var(--light_blue);
+                 text-decoration: none;
+                 opacity: 1;
+                "
+              >TypeScript</a>
+
+              <a rel="noreferrer"
+              target="_blank"
+              class="cta-btn cta-btn--hero"
+              href="https://sql.sh/"
+              style="
+               font-size: 16px;
+               color: var(--light_blue);
+               text-decoration: none;
+               opacity: 1;
+              "
+            >SQL</a>
+                
                 <a
                   rel="noreferrer"
                   target="_blank"
                   class="cta-btn cta-btn--hero"
                   href="#!"
                 >
-                  See Live
+                 Source Code <i class="fa-brands fa-github"></i>
                 </a>
-                <a
-                  rel="noreferrer"
-                  target="_blank"
-                  class="cta-btn text-color-main"
-                  href="#!"
-                >
-                  Source Code
                 </a>
               </div>
             </div>
@@ -254,12 +306,81 @@
                     <img
                       alt="Project Image"
                       class="img-fluid"
-                      src="assets/project.jpg"
+                      src="assets/cocapi.png"
                     />
                   </div>
                 </a>
               </div>
             </div>
+          </div>
+          <!-- /END Project -->
+
+          <!-- Notice: each .row is a project -->
+          <div class="row">
+                      <div class="col-lg-4 col-sm-12">
+                        <div class="project-wrapper__text load-hidden">
+                          <h3 class="project-wrapper__text-title">Test case automation </h3>
+                          <div>
+                            <p class="mb-4">
+                              During my 1st year internship I participated in the maintenance of an application for the virtualization of mainframe interfaces.
+                              I was able to create automatic test cases to maintain the application when a new version was released. 
+                            </p>
+                          </div>
+          
+                          <a rel="noreferrer"
+                          target="_blank"
+                          class="cta-btn cta-btn--hero"
+                          href="https://www.ranorex.com/"
+                          style="
+                           font-size: 16px;
+                           color: var(--light_blue);
+                           text-decoration: none;
+                           opacity: 1;
+                          "
+                        >Ranorex</a>
+          
+                        <a rel="noreferrer"
+                        target="_blank"
+                        class="cta-btn cta-btn--hero"
+                        href="https://www.redmine.org/"
+                        style="
+                         font-size: 16px;
+                         color: var(--light_blue);
+                         text-decoration: none;
+                         opacity: 1;
+                        "
+                      >Redmine</a>
+                          
+                          <a
+                            rel="noreferrer"
+                            target="_blank"
+                            class="cta-btn cta-btn--hero"
+                            href="https://blog.virtelweb.com/"
+                          >
+                           Source
+                          </a>
+                          </a>
+                        </div>
+                      </div>
+                      <div class="col-lg-8 col-sm-12">
+                        <div class="project-wrapper__image load-hidden">
+                          <a rel="noreferrer" href="https://blog.virtelweb.com/" target="_blank">
+                            <div
+                              data-tilt
+                              data-tilt-max="4"
+                              data-tilt-glare="true"
+                              data-tilt-max-glare="0.5"
+                              class="thumbnail rounded js-tilt"
+                            >
+                              <img
+                                alt="Project Image"
+                                class="img-fluid"
+                                src="assets/vrt.png"
+                              />
+                            </div>
+                          </a>
+                        </div>
+                      </div>
           </div>
           <!-- /END Project -->
         </div>
@@ -272,16 +393,18 @@
       <div class="container">
         <h2 class="section-title">Contact</h2>
         <div class="contact-wrapper load-hidden">
-          <p class="contact-wrapper__text">[Put your call to action here]</p>
           <a
             rel="noreferrer"
             target="_blank"
             class="cta-btn cta-btn--resume"
-            href="mailto:example@email.com"
-            >Call to Action</a
+            href="mailto:morandbrice@gmail.com"
+            >morandbrice@gmail.com</a
           >
         </div>
+        
       </div>
+      <p>_</p>
+      <p class="contact-wrapper__text">06 09 31 45 55</p>
     </section>
     <!-- /END Contact Section -->
 
@@ -292,49 +415,15 @@
           <i class="fa fa-angle-up fa-2x" aria-hidden="true"></i>
         </a>
         <div class="social-links">
-          <a rel="noreferrer" href="#!" target="_blank">
-            <i class="fa fa-twitter fa-inverse"></i>
-          </a>
-          <a rel="noreferrer" href="#!" target="_blank">
+          <a rel="noreferrer" href="https://www.linkedin.com/in/brice-morand-20119623b/" target="_blank">
             <i class="fa fa-linkedin fa-inverse"></i>
           </a>
-          <a rel="noreferrer" href="#!" target="_blank">
+          <a rel="noreferrer" href="https://github.com/Katorrz" target="_blank">
             <i class="fa fa-github fa-inverse"></i>
           </a>
+          
         </div>
-
         <hr />
-
-        <!-- Notice: if you want to give me some credit, it will be huge for me! if not, put your data on it -->
-        <p class="footer__text">
-          © 2021 - Template developed by
-          <a rel="noreferrer" href="https://github.com/cobiwave" target="_blank"
-            >Jacobo Martínez</a
-          >
-        </p>
-
-        <!-- TO DO: remove this entire paragraph once you finish your portfolio -->
-        <p class="mt-3 pt-3">
-          <a
-            rel="noreferrer"
-            class="github-button"
-            href="https://github.com/cobiwave/simplefolio/fork"
-            data-icon="octicon-repo-forked"
-            data-size="large"
-            data-show-count="true"
-            aria-label="Fork ntkme/github-buttons on GitHub"
-            >Fork</a
-          >
-          <a
-            rel="noreferrer" 
-            class="github-button"
-            href="https://github.com/cobiwave/simplefolio"
-            data-icon="octicon-star"
-            data-size="large"
-            data-show-count="true"
-            aria-label="Star cobiwave/simplefolio on GitHub"
-            >Star</a
-          >
         </p>
       </div>
     </footer>
